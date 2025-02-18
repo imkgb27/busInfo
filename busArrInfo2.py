@@ -4,7 +4,7 @@ import streamlit as st
 import xml.etree.ElementTree as ET
 
 # 🔑 API Key (코드에 직접 삽입)
-API_KEY = "uIYKKROcKMqB9rev3vsyJMh9o15YJDYGeH%2FVE2DdTl3DGaynT%2FnzprNZdJ7uTsgThA88DwdSyh4dL%2BXLOwVydA%3D%3D"  # 여기 YOUR_API_KEY를 실제 API 키로 변경하세요.
+API_KEY = "IYKKROcKMqB9rev3vsyJMh9o15YJDYGeH%2FVE2DdTl3DGaynT%2FnzprNZdJ7uTsgThA88DwdSyh4dL%2BXLOwVydA%3D%3D"  # 여기 YOUR_API_KEY를 실제 API 키로 변경하세요.
 
 # API 호출 함수
 def get_bus_info(station_id, bus_route_id, ord):
@@ -46,7 +46,7 @@ import xml.etree.ElementTree as ET
 import streamlit as st
 
 # ✅ API 요청 (디코딩된 API 키 사용)
-API_KEY = "uIYKKROcKMqB9rev3vsyJMh9o15YJDYGeH/VE2DdTl3DGaynT/nzprNZdJ7uTsgThA88DwdSyh4dL+XLOwVydA=="  # 여기에 디코딩된 인증키 입력
+API_KEY = "IYKKROcKMqB9rev3vsyJMh9o15YJDYGeH/VE2DdTl3DGaynT/nzprNZdJ7uTsgThA88DwdSyh4dL+XLOwVydA=="  # 여기에 디코딩된 인증키 입력
 URL = "http://ws.bus.go.kr/api/rest/arrive/getArrInfoByRoute"
 
 params = {
