@@ -15,11 +15,11 @@ bus_routes_1 = [
 ]
 # 래미안중문 5511
 bus_routes_2 = [
-    {"busRouteId": "100100250", "stId": "119000317", "ord": "33", "name": "5511번"}
+    {"busRouteId": "119000317", "stId": "119000317", "ord": "33", "name": "5511번"}
 ]
 # 금양빌딩 5511
 bus_routes_3 = [
-    {"busRouteId": "100100250", "stId": "119000316", "ord": "45", "name": "5511번"}
+    {"busRouteId": "119000316", "stId": "119000316", "ord": "45", "name": "5511번"}
 ]
 # Streamlit UI
 #st.title("🚍 버스 도착 정보")
